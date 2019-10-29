@@ -40,7 +40,7 @@ class Review(models.Model):
 $ python manage.py dumpdata musics > musics.json
 ```
 
-* musics.json 파일이 만들어진다.
+* 현재 musics DB에 있는 파일을 가지고 와서 musics.json 파일을 생성한다.
 
 ```bash
 $ python manage.py dumpdata --indent 2 musics > musics.json
